@@ -1,0 +1,1290 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/opensans-italic-webfont.eot");
+    src: local("Open Sans"), local("OpenSans"), url("../fonts/opensans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-italic-webfont.woff") format("woff"), url("../fonts/opensans-italic-webfont.ttf") format("truetype"), url("../fonts/opensans-italic-webfont.svg#open_sansitalic") format("svg");
+    font-weight: normal;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/opensans-bolditalic-webfont.eot");
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url("../fonts/opensans-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-bolditalic-webfont.woff") format("woff"), url("../fonts/opensans-bolditalic-webfont.ttf") format("truetype"), url("../fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic") format("svg");
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/opensans-bold-webfont.eot");
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url("../fonts/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-bold-webfont.woff") format("woff"), url("../fonts/opensans-bold-webfont.ttf") format("truetype"), url("../fonts/opensans-bold-webfont.svg#open_sansbold") format("svg");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/opensans-light-webfont.eot");
+    src: local("Open Sans Light"), local("OpenSans-Light"), url("../fonts/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-light-webfont.woff") format("woff"), url("../fonts/opensans-light-webfont.ttf") format("truetype"), url("../fonts/opensans-light-webfont.svg#open_sanslight") format("svg");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/opensans-lightitalic-webfont.eot");
+    src: local("Open Sans Light"), local("OpenSans-Light"), url("../fonts/opensans-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-lightitalic-webfont.woff") format("woff"), url("../fonts/opensans-lightitalic-webfont.ttf") format("truetype"), url("../fonts/opensans-lightitalic-webfont.svg#open_sanslight_italic") format("svg");
+    font-weight: 300;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/opensans-regular-webfont.eot");
+    src: local("Open Sans"), local("OpenSans"), url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.ttf") format("truetype"), url("../fonts/opensans-regular-webfont.svg#open_sansregular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/opensans-semibold-webfont.eot");
+    src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url("../fonts/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-semibold-webfont.woff") format("woff"), url("../fonts/opensans-semibold-webfont.ttf") format("truetype"), url("../fonts/opensans-semibold-webfont.svg#open_sanssemibold") format("svg");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/opensans-semibolditalic-webfont.eot");
+    src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url("../fonts/opensans-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-semibolditalic-webfont.woff") format("woff"), url("../fonts/opensans-semibolditalic-webfont.ttf") format("truetype"), url("../fonts/opensans-semibolditalic-webfont.svg#open_sanssemibold_italic") format("svg");
+    font-weight: 600;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url("../fonts/robotocondensed-bold-webfont.eot");
+    src: local("Roboto Condensed Bold"), local("RobotoCondensed-Bold"), url("../fonts/robotocondensed-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/robotocondensed-bold-webfont.woff") format("woff"), url("../fonts/robotocondensed-bold-webfont.ttf") format("truetype"), url("../fonts/robotocondensed-bold-webfont.svg#roboto_condensedbold") format("svg");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url("../fonts/robotocondensed-bolditalic-webfont.eot");
+    src: local("Roboto Condensed Bold Italic"), local("RobotoCondensed-BoldItalic"), url("../fonts/robotocondensed-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/robotocondensed-bolditalic-webfont.woff") format("woff"), url("../fonts/robotocondensed-bolditalic-webfont.ttf") format("truetype"), url("../fonts/robotocondensed-bolditalic-webfont.svg#roboto_condensedbold_italic") format("svg");
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url("../fonts/robotocondensed-italic-webfont.eot");
+    src: local("Roboto Condensed Italic"), local("RobotoCondensed-Italic"), url("../fonts/robotocondensed-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/robotocondensed-italic-webfont.woff") format("woff"), url("../fonts/robotocondensed-italic-webfont.ttf") format("truetype"), url("../fonts/robotocondensed-italic-webfont.svg#roboto_condenseditalic") format("svg");
+    font-weight: normal;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url("../fonts/robotocondensed-light-webfont.eot");
+    src: local("Roboto Condensed Light"), local("RobotoCondensed-Light"), url("../fonts/robotocondensed-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/robotocondensed-light-webfont.woff") format("woff"), url("../fonts/robotocondensed-light-webfont.ttf") format("truetype"), url("../fonts/robotocondensed-light-webfont.svg#roboto_condensedlight") format("svg");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url("../fonts/robotocondensed-lightitalic-webfont.eot");
+    src: local("Roboto Condensed Light Italic"), local("RobotoCondensed-LightItalic"), url("../fonts/robotocondensed-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/robotocondensed-lightitalic-webfont.woff") format("woff"), url("../fonts/robotocondensed-lightitalic-webfont.ttf") format("truetype"), url("../fonts/robotocondensed-lightitalic-webfont.svg#roboto_condensedlight_italic") format("svg");
+    font-weight: 300;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url("../fonts/robotocondensed-regular-webfont.eot");
+    src: local("Roboto Condensed Regular"), local("RobotoCondensed-Regular"), url("../fonts/robotocondensed-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/robotocondensed-regular-webfont.woff") format("woff"), url("../fonts/robotocondensed-regular-webfont.ttf") format("truetype"), url("../fonts/robotocondensed-regular-webfont.svg#roboto_condensedregular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/roboto-bold-webfont.eot");
+    src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-bold-webfont.woff") format("woff"), url("../fonts/roboto-bold-webfont.ttf") format("truetype"), url("../fonts/roboto-bold-webfont.svg#robotobold") format("svg");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/roboto-bolditalic-webfont.eot");
+    src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url("../fonts/roboto-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-bolditalic-webfont.woff") format("woff"), url("../fonts/roboto-bolditalic-webfont.ttf") format("truetype"), url("../fonts/roboto-bolditalic-webfont.svg#robotobold_italic") format("svg");
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/roboto-italic-webfont.eot");
+    src: local("Roboto Italic"), local("Roboto-Italic"), url("../fonts/roboto-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-italic-webfont.woff") format("woff"), url("../fonts/roboto-italic-webfont.ttf") format("truetype"), url("../fonts/roboto-italic-webfont.svg#robotoitalic") format("svg");
+    font-weight: normal;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/roboto-light-webfont.eot");
+    src: local("Roboto Light"), local("Roboto-Light"), url("../fonts/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-light-webfont.woff") format("woff"), url("../fonts/roboto-light-webfont.ttf") format("truetype"), url("../fonts/roboto-light-webfont.svg#robotolight") format("svg");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/roboto-lightitalic-webfont.eot");
+    src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url("../fonts/roboto-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-lightitalic-webfont.woff") format("woff"), url("../fonts/roboto-lightitalic-webfont.ttf") format("truetype"), url("../fonts/roboto-lightitalic-webfont.svg#robotolight_italic") format("svg");
+    font-weight: 300;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/roboto-regular-webfont.eot");
+    src: local("Roboto Regular"), local("Roboto-Regular"), url("../fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-regular-webfont.woff") format("woff"), url("../fonts/roboto-regular-webfont.ttf") format("truetype"), url("../fonts/roboto-regular-webfont.svg#robotoregular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/roboto-mediumitalic-webfont.eot");
+    src: url("../fonts/roboto-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-mediumitalic-webfont.woff") format("woff"), url("../fonts/roboto-mediumitalic-webfont.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/roboto-medium-webfont.eot");
+    src: url("../fonts/roboto-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-medium-webfont.woff") format("woff"), url("../fonts/roboto-medium-webfont.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+.pull-left {
+    float: left !important
+}
+
+.pull-right {
+    float: right !important
+}
+
+.mr0 {
+    margin-right: 0 !important
+}
+
+.group:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: " ";
+    font-size: 0
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.group {
+    display: block;
+    clear: both
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.none {
+    display: none !important
+}
+
+body {
+    color: #fff;
+    background: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 1.4
+}
+
+a {
+    color: #fff;
+    text-decoration: none
+}
+
+.zm-icon,
+.icon-arrow-down,
+.icon-hd,
+.close-banner {
+    background-image: url("../images/icon-player.png");
+    margin-right: 10px
+}
+
+.zm-player-song {
+    width: 650px;
+    height: 185px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none
+}
+
+.zm-player-song .zm-control {
+    width: 100%;
+    height: 36px;
+    padding: 0 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    top: 149px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3)
+}
+
+.zm-player-video {
+    height: 520px
+}
+
+.zm-player-video .zm-head {
+    height: auto
+}
+
+.zm-player-video .zm-control {
+    background: #333;
+    -webkit-transition: bottom 0.5s ease;
+    -moz-transition: bottom 0.5s ease;
+    -ms-transition: bottom 0.5s ease;
+    -o-transition: bottom 0.5s ease;
+    transition: bottom 0.5s ease
+}
+
+.zm-player-video .zm-process-bar {
+    -webkit-transition: bottom 0.5s ease;
+    -moz-transition: bottom 0.5s ease;
+    -ms-transition: bottom 0.5s ease;
+    -o-transition: bottom 0.5s ease;
+    transition: bottom 0.5s ease
+}
+
+.is-fullscreen.is-mouseout {
+    cursor: none
+}
+
+.is-fullscreen.is-mouseout .zm-control {
+    bottom: -40px
+}
+
+.is-fullscreen.is-mouseout .zm-process-bar {
+    bottom: -4px
+}
+
+.is-fullscreen.is-mouseout .zm-process-bar .zm-node {
+    display: none !important
+}
+
+.zm-head {
+    height: 185px; /* default 240px */
+    position: relative
+}
+
+
+.zm-head .zm-cover {
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.zm-head .zm-cover .zm-mask {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%
+}
+
+.zm-head .zm-meta {
+    position: absolute;
+    top: 20px;
+    left: 20px
+}
+
+.zm-head .zm-meta h3,
+.zm-head .zm-meta h4 {
+    margin: 0;
+    font-weight: 400
+}
+
+.zm-head .zm-meta h3 {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 20px
+}
+
+.zm-head .zm-meta h4 {
+    font-size: 15px;
+    color: #ccc
+}
+
+.zm-head .zm-album {
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:300px;
+    height:250px;
+    display: none
+}
+.zm-head .zm-album .wrap-b-zm{width:300px;height:250px}
+.zm-head .zm-album .wrap-b-zm .b-close-zm{position:absolute;top:3px;left:3px;background:url(../images/icon-player.png) 0 -895px no-repeat;width:25px;height:25px;}
+.zm-head .zm-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 99999
+}
+
+.zm-head .zm-overlay .info-next {
+    margin-top: 10px;
+    text-align: center
+}
+
+.zm-head .zm-overlay .info-next span {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff
+}
+
+.zm-head .zm-overlay .info-next p {
+    margin: 0;
+    font-size: 18px;
+    color: #fff
+}
+
+.zm-head .zm-switch-kara {
+    position: absolute;
+    cursor: pointer;
+    font-size: 15px;
+    right: 20px;
+    top: 20px;
+    color: #fff;
+    display: none
+}
+
+/*
+.zm-player-song:hover .zm-head .zm-switch-kara {
+    display: block
+}
+*/
+
+.zm-head .zm-switch-kara p {
+    margin: 0;
+    text-transform: uppercase
+}
+
+.zm-head .zm-switch-kara p span {
+    display: block;
+    text-align: right
+}
+
+.zm-head .zm-switch-kara p span.off {
+    color: #07eaea
+}
+
+.zm-head .zm-switch-kara p span.on {
+    color: #721799
+}
+
+.zm-head .zm-lyrics {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 25px;
+    left: 0;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    height: 110px;
+    overflow: hidden;
+    padding:10px 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+
+.zm-head .zm-lyrics p {
+    margin: 0;
+    height: 33px;
+    line-height: 33px;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 24px !important;
+    position: relative;
+    outline: none;
+    white-space: nowrap;
+    display: inline-block;
+    color: #fff;
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    overflow: hidden;
+}
+.zm-head .fn-msgbox .fn-msg{overflow:visible}
+
+.zm-head .zm-lyrics p i{font-style:normal}
+
+.zm-head .zm-lyrics p span {
+    display:block;
+    margin-top:-33px;
+    text-align:left;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.zm-head .zm-lyrics p.current {
+    color: #fff
+}
+
+.zm-head .zm-lyrics p.current span {
+    width:0;
+    color: #d269ff;
+    transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+}
+
+.zm-head .zm-info-song {
+    position: absolute;
+    z-index: 11;
+    top: 15px;
+    left: 25px;
+    color: #fff;
+    font-weight: 300
+}
+
+.zm-head .zm-info-song h3,
+.zm-head .zm-info-song h4 {
+    font-weight: 300;
+    margin: 0 0 3px 0
+}
+
+.zm-head .zm-info-song h3 {
+    font-size: 20px
+}
+
+.zm-head .zm-info-song h4 {
+    font-size: 15px
+}
+
+.zm-head .zm-info-song.otr{position:absolute;top:40px;left:20px;right:20px;text-align:center;}
+.zm-head .zm-info-song.otr h3{font-size:24px}
+.zm-head .zm-info-song.otr h4{font-size:18px}
+
+.zm-head .zm-lrc {
+    position: absolute;
+    font-weight: 700;
+    top: 15px;
+    right: 25px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer
+}
+
+.zm-head .zm-lrc i {
+    display: block;
+    font-style: normal;
+    color: #00ffff
+}
+
+.zm-volume {
+    width: 100px;
+    height: 2px;
+    background-color: #4d4d4d;
+    float: left;
+    margin: 17px 20px 0 12px;
+    position: relative;
+    cursor: pointer
+}
+
+.zm-volume .zm-volume-avaiable {
+    background: #721799;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.zm-volume .zm-volume-avaiable .zm-volume-node {
+    display: block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin-left: -6px;
+    margin-top: -5px;
+    cursor: pointer;
+    right: -6px
+}
+
+.zm-tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    bottom: 27px;
+    font-size: 11px;
+    color: #c3c3c3;
+    padding: 5px;
+    left: 50%;
+    margin-left: -10px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%)
+}
+
+.zm-tooltip .zm-list-quanlity {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+.zm-tooltip .zm-list-quanlity li {
+    margin-top: 8px;
+    white-space: nowrap;
+    cursor: pointer
+}
+
+.zm-tooltip .zm-list-quanlity li:hover {
+    color: #c94cff
+}
+
+.zm-tooltip .zm-list-quanlity li.active {
+    color: #fff
+}
+
+.zm-tooltip .zm-list-quanlity li:first-child {
+    margin-top: 0
+}
+
+.zm-time {
+    font-size: 12px;
+    color: #ccc;
+    float: left;
+    margin-top: 9px
+}
+
+.zm-tooltip:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-top-color: rgba(0, 0, 0, 0.8);
+    border-width: 4px;
+    margin-left: -4px
+}
+
+.zm-quanlity {
+    float: right;
+    position: relative
+}
+
+.zm-quanlity .zm-quanlity-display {
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+    padding: 2px 5px;
+    cursor: pointer;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-top: 7px;
+    margin-right: 20px;
+    background-color: #bdc3c7;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px
+}
+
+.zm-quanlity .zm-quanlity-display:hover {
+    color: #721799
+}
+
+.zm-icon {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    float: left;
+    margin-top: 5px;
+    cursor: pointer
+}
+
+.zm-icon-play {
+    background-position: 0 0
+}
+
+.zm-icon-play.active,
+.zm-icon-play:hover {
+    background-position: 0 -25px
+}
+
+.zm-icon-pause {
+    background-position: 0 -300px
+}
+
+.zm-icon-pause.active,
+.zm-icon-pause:hover {
+    background-position: 0 -325px
+}
+
+.is-playing .zm-icon-play {
+    background-position: 0 -300px
+}
+
+.is-playing .zm-icon-play.active,
+.is-playing .zm-icon-play:hover {
+    background-position: 0 -325px
+}
+
+.zm-icon-volume {
+    background-position: 0 -50px;
+    margin: 6px 0px 0 15px
+}
+
+.zm-icon-volume.active,
+.zm-icon-volume:hover {
+    background-position: 0 -75px
+}
+
+.zm-icon-volume-mute {
+    background-position: 0 -350px;
+    margin: 6px 0px 0 15px
+}
+
+.zm-icon-volume-mute.active,
+.zm-icon-volume-mute:hover {
+    background-position: 0 -375px
+}
+
+.is-muted .zm-icon-volume {
+    background-position: 0 -350px;
+    margin: 6px 0px 0 15px
+}
+
+.is-muted .zm-icon-volume.active,
+.is-muted .zm-icon-volume:hover {
+    background-position: 0 -375px
+}
+
+.zm-icon-collapse {
+    background-position: 0 -650px
+}
+
+.zm-icon-collapse.active,
+.zm-icon-collapse:hover {
+    background-position: 0 -675px
+}
+
+.zm-icon-expand {
+    background-position: 0 -600px
+}
+
+.zm-icon-expand.active,
+.zm-icon-expand:hover {
+    background-position: 0 -625px
+}
+
+.is-expand .zm-icon-expand {
+    background-position: 0 -650px
+}
+
+.is-expand .zm-icon-expand.active,
+.is-expand .zm-icon-expand:hover {
+    background-position: 0 -675px
+}
+
+.zm-icon-repeat {
+    background-position: 0 -100px
+}
+
+.zm-icon-repeat.active,
+.zm-icon-repeat:hover {
+    background-position: 0 -125px
+}
+
+.zm-icon-no-repeat {
+    background-position: 0 -150px
+}
+
+.zm-icon-no-repeat.active,
+.zm-icon-no-repeat:hover {
+    background-position: 0 -175px
+}
+
+.zm-icon-repeat-one {
+    background-position: 0 -200px
+}
+
+.zm-icon-repeat-one.active,
+.zm-icon-repeat-one:hover {
+    background-position: 0 -225px
+}
+
+.zm-icon-shuffle {
+    background-position: 0 -250px
+}
+
+.zm-icon-shuffle.active,
+.zm-icon-shuffle:hover {
+    background-position: 0 -275px
+}
+
+.is-repeat-0 .zm-icon-repeat {
+    background-position: 0 -150px
+}
+
+.is-repeat-0 .zm-icon-repeat.active,
+.is-repeat-0 .zm-icon-repeat:hover {
+    background-position: 0 -175px
+}
+
+.is-repeat-1 .zm-icon-repeat {
+    background-position: 0 -200px
+}
+
+.is-repeat-1 .zm-icon-repeat.active,
+.is-repeat-1 .zm-icon-repeat:hover {
+    background-position: 0 -225px
+}
+
+.is-repeat-2 .zm-icon-repeat {
+    background-position: 0 -100px
+}
+
+.is-repeat-2 .zm-icon-repeat.active,
+.is-repeat-2 .zm-icon-repeat:hover {
+    background-position: 0 -125px
+}
+
+.is-repeat-3 .zm-icon-repeat {
+    background-position: 0 -250px
+}
+
+.is-repeat-3 .zm-icon-repeat.active,
+.is-repeat-3 .zm-icon-repeat:hover {
+    background-position: 0 -275px
+}
+
+.zm-icon-prev {
+    background-position: 0 -400px
+}
+
+.zm-icon-prev.active,
+.zm-icon-prev:hover {
+    background-position: 0 -425px
+}
+
+.zm-icon-next {
+    background-position: 0 -450px
+}
+
+.zm-icon-next.active,
+.zm-icon-next:hover {
+    background-position: 0 -475px
+}
+
+.zm-icon-mini {
+    background-position: 0 -550px
+}
+
+.zm-icon-mini.active,
+.zm-icon-mini:hover {
+    background-position: 0 -575px
+}
+
+.zm-icon-full {
+    background-position: 0 -500px
+}
+
+.zm-icon-full.active,
+.zm-icon-full:hover {
+    background-position: 0 -525px
+}
+
+.is-fullscreen .zm-icon-full {
+    background-position: 0 -550px
+}
+
+.is-fullscreen .zm-icon-full.active,
+.is-fullscreen .zm-icon-full:hover {
+    background-position: 0 -575px
+}
+
+.is-fullscreen .zm-icon-expand {
+    display: none
+}
+
+.zm-icon-minimal {
+    background-position: 0 -600px
+}
+
+.zm-icon-minimal.active,
+.zm-icon-minimal:hover {
+    background-position: 0 -625px
+}
+
+.zm-icon-headphone {
+    background-position: 0 -775px
+}
+
+.zm-icon-headphone.active,
+.zm-icon-headphone:hover {
+    background-position: 0 -800px
+}
+
+.zm-icon-download {
+    background-position: 0 -825px
+}
+
+.zm-icon-download.active,
+.zm-icon-download:hover {
+    background-position: 0 -850px
+}
+
+.zm-icon-config {
+    background-position: 0 -700px;
+    margin-right: 0
+}
+
+.zm-icon-config.active,
+.zm-icon-config:hover,
+.zm-configs:hover .zm-icon-config {
+    background-position: 0 -725px
+}
+
+.zm-configs {
+    cursor: pointer
+}
+
+.zm-configs a {
+    display: block;
+    height: 30px
+}
+
+.zm-rp {
+    float: right;
+    position: relative
+}
+
+.zm-jump-lyric {
+    float: right;
+    width:25px;
+    height:25px;
+    margin-top: 5px;
+    margin-right: 20px
+}
+
+.zm-jump-lyric a {
+    display:block;
+    background:url(../images/icon-player.png) 0 -920px;
+    width:25px;
+    height:25px;
+    text-indent:-9999px
+}
+
+.zm-jump-lyric a:hover, .zm-jump-lyric a.active {
+    background-position:0 -945px;
+}
+
+.zm-jump-mv {
+    float: right;
+    margin-top: 7px;
+    margin-right: 20px
+}
+
+.zm-jump-mv a {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700
+}
+
+.zm-jump-mv a:hover {
+    color: #721799
+}
+
+.zm-process-bar {
+    background: rgba(76, 76, 76, 0.3);
+    position: absolute;
+    bottom: 36px;
+    width: 100%;
+    height: 2px;
+    cursor: pointer
+}
+
+.zm-process-bar .zm-loaded {
+    background: rgba(76, 76, 76, 0.7);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.zm-process-bar .zm-buffer {
+    background: #721799;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.zm-process-bar .zm-buffer .zm-node {
+    display: block;
+    width: 16px;
+    height: 16px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    position: absolute;
+    right: -4px;
+    margin-top: -5px;
+    margin-left: -8px;
+    display: none;
+    z-index: 9999
+}
+
+.zm-player-song:hover .zm-process-bar {
+    height: 6px
+}
+
+.zm-player-song:hover .zm-process-bar .zm-node {
+    display: block
+}
+
+.box-option {
+    position: absolute;
+    bottom: 27px;
+    left: 50%;
+    margin-left: -90px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 15px;
+    font-size: 11px;
+    color: #fff;
+    width: 180px
+}
+
+.box-option ul {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+.box-option>ul>li {
+    margin-top: 8px
+}
+
+.box-option>ul>li strong {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 60px;
+    float: left;
+    white-space: nowrap
+}
+
+.box-option>ul li:first-child {
+    margin-top: 0
+}
+
+.box-option .zm-icon {
+    margin-top: 0;
+    margin-right: 5px;
+    position: relative;
+    top: -5px
+}
+
+.box-option:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-top-color: rgba(0, 0, 0, 0.8);
+    border-width: 4px;
+    margin-left: -4px
+}
+
+.uiselect {
+    background: #f2f2f2;
+    width: 85px;
+    height: 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    color: #333
+}
+
+.uiselect span {
+    display: block;
+    margin-top: 2px;
+    margin-left: 5px
+}
+
+.uiselect ul {
+    position: absolute;
+    bottom: 20px;
+    width: 85px;
+    background: #eee;
+    border-bottom: 1px solid #bfbfbf
+}
+
+.uiselect ul li {
+    color: #333;
+    padding: 3px 8px 3px 18px;
+    position: relative
+}
+
+.uiselect ul li:hover {
+    color: #fff;
+    background: #333
+}
+
+.uiselect ul li.active:before {
+    background-image: url("../images/icon-player.png");
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    background-position: 0 -885px;
+    top: 5px;
+    left: 5px
+}
+
+.uiselect ul li.active:hover:before {
+    background-position: -10px -885px
+}
+
+.uiselect.active ul {
+    display: block
+}
+
+.icon-arrow-down {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 10px;
+    height: 10px;
+    background-position: 0 -875px;
+    position: absolute;
+    right: -4px;
+    top: 5px
+}
+
+.icon-hd {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-position: 0 -750px;
+    position: absolute;
+    right: -20px;
+    display: none
+}
+
+.is-hd .icon-hd {
+    display: block
+}
+
+.html5-context-menu {
+    background: #fff;
+    border: 1px solid #ccc;
+    position: absolute;
+    z-index: 999999;
+    margin: 0;
+    padding: 0
+}
+
+.html5-context-menu li {
+    color: #333;
+    list-style: none;
+    margin: 0;
+    padding: 5px 10px;
+    cursor: pointer
+}
+
+.html5-context-menu li:hover {
+    background: #333;
+    color: #fff
+}
+
+.loading {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/loading.png");
+    margin: -25px 0 0 -25px;
+    top: 50%;
+    left: 50%;
+    z-index: 999999;
+    -webkit-animation: spin .5s linear infinite;
+    animation: spin .5s linear infinite
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.banner-in-player {
+    position: absolute;
+    z-index: 12;
+    line-height: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top: -20px
+}
+
+.banner-in-player .close-banner {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-right: 0;
+    background-position: 0 -895px;
+    top: -12px;
+    right: -12px;
+    cursor: pointer
+}
+
+.banner-in-player iframe {
+    border: 0
+}
+
+.zm-player-video .banner-in-player {
+    top: auto;
+    bottom: 20px
+}
+
+.banner-display {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    background-image: url("../images/ads-visible.png");
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.banner-display:hover {
+    background-position: 0 -20px
+}
+
+@-webkit-keyframes load {
+    0% {
+        stroke-dashoffset: 629
+    }
+}
+
+@-moz-keyframes load {
+    0% {
+        stroke-dashoffset: 629
+    }
+}
+
+@keyframes load {
+    0% {
+        stroke-dashoffset: 629
+    }
+}
+
+svg .zing-svg-autoplay-ring {
+    stroke-dasharray: 629;
+    -webkit-animation: load 5s;
+    -moz-animation: load 5s;
+    -o-animation: load 5s;
+    animation: load 5s
+}
+
+.feature-player {
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    margin-top: 0;
+    text-align: center
+}
+
+.feature-player .cancel-text-button {
+    color: #fff
+}
+
+.feature-player svg {
+    margin-bottom: 10px
+}

@@ -1,0 +1,39 @@
+div.dkm div.l{width:17px;position:absolute;z-index:1; margin-left:60px; margin-top:55px;}
+div.dkm div.r{width:17px;position:absolute;z-index:1; margin-left:310px;margin-top:55px;}
+
+#next1, #back1{height:29px;width:29px;display:block; margin-top:90px;}
+#next1{background:url(../../js/imgsliw/r.png) no-repeat left center;}
+#back1{background:url(../../js/imgsliw/l.png) no-repeat left center;}
+
+#adv1{height:330px;overflow:hidden; background-color:#14b3e7; color:#fff;}
+#adv1 a{ color:#fff;}
+#adv1 li{float:left;width:360px;overflow:hidden; padding:20px; text-align:center;}
+#adv1 img{ display:block; width:120px; height:120px; border:solid 3px #fff;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%; margin-left:auto; margin-right:auto;}
+#adv1 strong{ display:block; padding-top:20px; font-size:15px; height:25px;}
+#adv1 span{ display:block;}
+#adv1 span.t{ height:30px;}
+#adv1 span.c{ height:2px; width:68px; background-color:#fff; overflow:hidden; margin-left:auto; margin-right:auto; margin-bottom:5px;}
+#adv1 span.f{background:url(../../images/bg/b6.gif) no-repeat left top, url(../../images/bg/b7.gif) no-repeat right bottom; padding:10px 20px;}
+
+
+div.dsw2{ height:215px; overflow:hidden; width:1000px; margin-left:auto; margin-right:auto; border-top:solid 2px #e8e8e8; margin-top:15px;}
+div.dsw2 div.ff{width:700px; overflow:hidden; margin-left:280px;}
+div.dsw2 div.l{width:17px;position:absolute;z-index:1; margin-left:260px; margin-top:70px;}
+div.dsw2 div.r{width:17px;position:absolute;z-index:1; margin-left:983px;margin-top:70px;}
+
+#next2, #back2{width:20px;display:block;height:20px;}
+#next2{background:url(r1.gif) no-repeat left center;}
+#back2{background:url(l1.gif) no-repeat left center;}
+
+#adv2{height:240px;overflow:hidden;}
+#adv2 li{float:left;width:208px;overflow:hidden;padding:0px 13px; text-align:center; padding-top:15px; font-weight:bold;}
+
+#adv2 li img{width:200px;height:133px; background-color:#fff; padding:3px; border:solid 1px #c7c7c7;}
+#adv2 li strong{ display:block;line-height:15px; height:15px; overflow:hidden; padding-top:2px;}
+#adv2 li span{ display:block; padding-top:5px; color: #14b3e7;}
+
+div.dsw2 div.tt{position:absolute;z-index:1;line-height:20px;}
+div.dsw2 div.tt a{ font-weight:bold; color:#14b3e7;}
+
+
+

@@ -1,0 +1,571 @@
+body {
+    line-height: 1.6;
+    color: #333;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    font-size:14px;
+    line-height:22px;
+    background-attachment:fixed;
+}
+
+p {
+    margin: 0 0 10px
+}
+
+h1, h2, h3, h4, h5, h6, dl dt {
+    margin: 0 0 20px;
+    font-weight: normal;
+    font-weight: 400;
+    line-height:1.42857;
+    font-family:"Roboto";
+}
+
+h1 {
+    font-size: 40px
+}
+
+h2 {
+    font-size: 32px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5, h6 {
+    font-size: 13px
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style:decimal;
+}
+ul, ol {
+    padding: 0 15px;
+    margin: 0;
+    margin-bottom: 30px
+}
+
+li {
+    line-height:1.6;
+}
+a{
+    color: #333;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+a:hover {
+    color: #F78F1E;
+    text-decoration:none;
+}
+a:focus {
+    color: #F78F1E;
+    text-decoration:none;
+}
+a:focus, input:focus, select:focus, textarea:focus {
+    outline: none !important;
+}
+
+input, textarea, select {
+    font-size: 14px;
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+}
+textarea {
+    resize:none;
+}
+code {
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+}	
+pre {
+    -webkit-border-radius:1px;
+    -moz-border-radius:1px;
+    border-radius:1px;
+    margin: 0 0 30px;
+}
+cite {
+    color: #B40606;
+    font-size:14px;
+    margin-left:10px;
+}
+del, .red {
+    color:red;
+}
+ins {
+    text-decoration:underline;
+}
+code, kbd, pre, samp {
+    font-family: monospace, serif;
+}
+
+table {
+    width:100%;
+    margin: 0 0 30px;
+}
+table td,
+table th {
+    border:1px solid #ccc;
+    padding:8px;
+    vertical-align:middle;
+    text-align:left;
+}
+
+dl {
+    margin:0 0 30px;
+}
+dl dt {
+    margin-bottom:10px;
+    font-weight:600;
+}
+dl dd {
+    margin-bottom:20px;
+    margin-left:30px;
+}
+video, audio {
+    max-width:100%;
+}
+.clearfix, .clear{
+    clear: both;
+}
+.none{
+    display: none;
+}
+.fl{
+    float: left
+}
+.fr{
+    float: right;
+}
+.body-mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 9999999;
+}
+.overlay {
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999999;
+}
+.box-popup {
+    background: none repeat scroll 0 0 #fff;
+    left: 50%;
+    overflow: hidden;
+    padding: 15px 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+}
+.box-popup .close {
+    right: 10px;
+    top: 8px;
+    position: absolute;
+    font-size: 24px;
+}
+.tip{
+    color: #85071C;
+}
+::selection {
+    background:#F78F1E;
+    color:#fff;
+}
+
+::-moz-selection {
+    background:#F78F1E;
+    color:#fff;
+}
+
+::-webkit-selection {
+    background:#F78F1E;
+    color:#fff;
+}
+
+/* 3. custom css
+--------------------------------------------------------------------------------------*/
+/* 3.1: commmon */
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(247, 143, 30, 1); 
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: rgba(247, 143, 30, 1); 
+    -webkit-box-shadow: inset 0 0 6px rgba(247, 143, 30, 1); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(247, 143, 30, 1); 
+}
+
+table {
+    width:100%;
+    margin: 0 0 30px;
+}
+table td,
+table th {
+    border:1px solid #ccc;
+    padding:15px 8px;
+    vertical-align:middle;
+    text-align:center;
+}
+.even, .bg-blue-pale{
+    background-color: #d4e1f5;
+}
+
+.button{
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-family: arial,serif !important;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0 auto;
+    min-width: 70px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+.no-border{
+    border: none !important;
+}
+.bd-top{
+    border-top:1px solid #ccc;
+}
+.bd-right{
+    border-right:1px solid #ccc;
+}
+.bd-left{
+    border-right:1px solid #ccc;
+}
+.bd-bottom{
+    border-bottom:1px solid #ccc;
+}
+.bg-pale{
+    background-color: #67ab9f;
+}
+.no-padding{
+    padding: 0 !important;
+}
+.no-margin{
+    margin: 0 !important;
+}
+.bg-grey{
+    background-color: #666;
+    color: #fff;
+}
+.fw-bold{
+    font-weight: bold;
+}
+
+.row-content{
+    font-size: 16px;
+}
+.row-content div{
+    height: 30px;
+    line-height: 30px;
+}
+.small-percent{
+    font-size: 10px;
+}
+.bottom-row td{
+    border-top: 3px solid #ccc;
+}
+ul.pages{ float:right; margin:0 !important;}
+ul.pages li{display:inline; list-style:none !important; margin: 0 0 0 5px;}
+ul.pages li a{ color:#333; padding:2px; text-decoration:none;  padding:2px 6px;}
+ul.pages li.active a, ul.pages li.current a, ul.pages li:hover a{color:#fff !important; background-color: #222428;}
+ul.pages li.ellipsis{margin-right:-5px;}
+ul.pages .last a{ padding-right:0 !important;}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+.ellipsis{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.over-hidden{
+    overflow: hidden;
+}
+.white{
+    color: #fff;
+}
+.black{
+    color: #000;
+}
+
+/* Main css */
+#content{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+#sidebar{
+    width: 180px;
+    border-left: 1px dotted #ddd;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 20px;
+}
+.row input{
+    margin-right: 5px;
+}
+.wrap-input{
+    width: 100%;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    height: 38px;
+    line-height: 38px;
+}
+.wrap-input input{
+    width: 100%;
+    border: none;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    padding: 0 8px;
+}
+.wrap-submit{
+    text-align: center;
+    margin-top: 20px;
+}
+.wrap-submit input{
+    width: 200px;
+    background-color: #f2f2f2;
+    border: none;
+    height: 38px;
+    line-height: 38px;
+    font-size: 13px;
+    font-family: arial;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    font-weight: bold;
+}
+.wrap-submit input:hover{
+    border: 1px solid #ccc;
+    color: #444;
+}
+#wrap-process{
+    padding: 0 20px;
+    height: 300px;
+}
+#wrap-process ul, #sidebar ul{
+    margin: 0;
+    padding-left: 10px;
+    list-style-type: circle !important;
+}
+#wrap-process ul li,  #sidebar ul li{
+    text-align: left;
+    margin-bottom: 5px;
+}
+#wrap-process ul li span{
+    float: right;
+}
+#wrap-process ul li a,  #sidebar ul li a{
+    text-decoration: none;
+    color:#444;
+    display: inline-block;
+    margin-right: 50px;
+}
+#wrap-process ul li a:hover,  #sidebar ul li a:hover{
+    color:#be63ff;
+}
+#sidebar ul li a{
+    margin-right: 0px;
+    display: inline;
+}
+.btn-result{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#btn-download, #btn-view{
+    display: none;
+}
+#btn-download:hover{
+    background-color: #be63ff;
+    color: #fff;
+}
+#btn-view:hover{
+    background-color: #ffa163;
+    color: #fff;
+}
+
+/* escrool */
+.en-scroll {
+    overflow: auto;
+}
+
+.track3 {
+    width: 10px;
+    background: rgba(0, 0, 0, 0);
+    margin-right: 2px;
+    border-radius: 10px;
+    -webkit-transition: background 250ms linear;
+    transition: background 250ms linear;
+}
+
+.track3:hover,
+.track3.dragging {
+    background: #d9d9d9; /* Browsers without rgba support */
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.handle3 {
+    width: 7px;
+    right: 0;
+    background: #999;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 7px;
+    -webkit-transition: width 250ms;
+    transition: width 250ms;
+}
+
+.track3:hover .handle3,
+.track3.dragging .handle3 {
+    width: 10px;
+}
+
+/* css blink */
+.blink {
+    animation: blink 1s steps(5, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+    background-color: #be63ff;
+    font-weight: normal;
+    color: #fff;
+    padding: 2px 10px;
+}
+.processing{
+    background: url('../images/ajax-loader.gif') center right no-repeat;
+}
+.complete{
+    background: url('../images/done.png') center right no-repeat;
+}
+#wrap-process ul li{
+    padding-right: 25px;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+/* response */
+@media (min-width: 1200px) {
+    #content{
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #sidebar{
+        width: 180px;
+        border-left: 1px dotted #ddd;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1199px){
+    #content{
+        width: 500px;
+        text-align: center;
+        margin-left: 53px;
+    }
+    #sidebar{
+        width: 180px;
+        border-left: 1px dotted #ddd;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    #content{
+        width: 60%;
+        text-align: center;
+        display: inline-block;
+        margin: 0 20%;
+    }
+    #sidebar{
+        width: 100%;
+        border: none;
+        position: relative;
+        display: inline-block;
+    }
+    .wrap-submit input{
+        margin-bottom: 5px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    #content{
+        width: 80%;
+        margin: none;
+        text-align: center;
+        display: inline-block;
+        margin: 0 10%;
+    }
+    #sidebar{
+        width: 100%;
+        border: none;
+        position: relative;
+        display: inline-block;
+    }
+    .wrap-submit input{
+        margin-bottom: 5px;
+    }
+}

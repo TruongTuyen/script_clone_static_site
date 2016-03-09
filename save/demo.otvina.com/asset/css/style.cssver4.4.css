@@ -1,0 +1,25 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic&subset=latin,vietnamese");
+body{font-size:12px;font-family:Arial;color:#333;padding:31px 0px 0px 0px;margin:0px;background:url(../images/bg/gg.gif) repeat-x left 31px;min-width:1000px;}
+body.d{background:url(../images/bg/pg.gif) repeat-x left 31px;}
+form{padding:0px;margin:0px;}
+.page-wrapper{width:1000px;margin-left:auto;margin-right:auto;overflow:hidden;}
+body.p .dkm{padding-top:15px;}
+body.p .dac{background-color:#f5f5f5;margin-top:0px;}
+body.p .dmf{background-color:#fff;}
+ul{padding:0px;margin:0px;list-style-type:none;}ul li{padding:0px;margin:0px;list-style-type:none;}h1,h2,h3,h4,h5,h6{padding:0px;margin:0px;}img{border:0px;}.sao{font-family:Verdana;color:Red;}.cl{clear:both;}
+a{color:#4f4f4f;text-decoration:none;}a:hover{color:#ff0000;text-decoration:underline;}
+.textbox{border:1px solid #288fb8;font-size:11px;font-family:Arial;color:#2c478c;background-color:White;} .textbox2{border:0px solid #fff;font-size:11px;font-family:Arial;color:#2c478c;background-color:Transparent;padding:0px;margin:0px;border:0px;border-style:none;} .txt12{border:1px solid #288fb8;font-size:12px;font-family:Arial;color:#2c478c;background-color:White;padding:2px;} .btnID{font-family:Arial,padding:1px;margin:0px;font-size:11px;}
+/*==============================================Begin Pages======================================*/
+#lblPage{display:block;text-align:right;padding-top:15px;height:28px;clear:both;font-size:15px;}
+A.apage:link{color:#6b696a;text-decoration:none;padding:2px 9px;vertical-align:middle;background-color:#f4f4f4;}
+A.apage:visited{color: #0062BD;text-decoration:none;padding:2px 9px;vertical-align: middle;}
+A.apage:hover{color:#bb0f1d;text-decoration:none;padding:2px 9px;vertical-align:middle;background-color:#ffff00;}
+.cpage{color:#bb0f1d;text-decoration:none;padding:2px 9px;vertical-align:middle;color:#bb0f1d;background-color:#ffff00;}
+/*==============================================End Pages======================================*/
+.uft,.av9,.uhea,.usear,.umh,.dac ul,.usw ul,.dkm ul.c,.umt,.pul,.dnf ul,.dft2 ul,.dmf ul.t,.dmf div.c,.dbc ul,.dsw2 div.cc{width:1001px;margin-left:auto;margin-right:auto;}
+.lff strong,#ud1 li,.divl .hv,.upd1 li.r div.t,.divl .hh,.divl .yt,.divl .h,.dft strong.t,ul.umh a.a1,ul.uda li.hh{font-family:'Open Sans',sans-serif;font-size:14px;text-transform:uppercase;}
+ul.pul img:hover,.divl .hv img:hover{-moz-opacity:0.7;opacity:0.7;filter:alpha(opacity=70);}
+@font-face{font-family: 'Open Sans';font-style: normal;font-weight: 400;src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/59ZRklaO5bWGqF5A9baEET8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');}
+.header-menu .menu-item a{border-right: 1px solid black;padding-right: 10px;}
+.header-menu .menu-item:first-child a{border:  none;}
+.submit_form{width:102px; height:46px;background: url(../images/bg/sf.gif); border: none; text-indent: -9999999px;}
